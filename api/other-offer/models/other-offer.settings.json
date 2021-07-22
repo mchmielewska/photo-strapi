@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "otherOffers",
+  "info": {
+    "name": "otherOffer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "offerName": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "required": true,
+      "type": "integer"
+    },
+    "offerDetails": {
+      "type": "richtext"
+    }
+  }
+}
